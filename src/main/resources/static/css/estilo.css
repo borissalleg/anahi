@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+.dropdown-content{ overflow: visible !important;} 
+
+    body { background-image: url(../img/principal/fondo.png);background-position: center center; background-size: cover;
+       background-repeat: no-repeat;background-blend-mode: soft-light;}
+   
+    .header {width: 100%; height:auto;}
+
+    .slider {width: 100%; height: 700px;}
+        .slider .slides { width: 100%;height: 800px;}
+        .slider .slides img {width: 100%;height:auto;}
+
+        .slide-text1 h1{font-family: 'Shadows Into Light', cursive; font-size: 80px;font-weight: bold;}
+        .slide-text1 h5{ font-size: 50px;font-family: 'Just Another Hand', cursive;}
+        .slide-text2 h1{ font-size: 70px;font-weight: bold; color: white;}
+        .slide-text2 h5{ font-size: 25px;color: white;font-family: 'Raleway', sans-serif;}
+        .slide-text3 h1{font-family: 'Shadows Into Light', cursive; font-size: 80px;font-weight: bold; color: white;}
+        .slide-text3 h5{ font-size: 45px;font-family: 'Tulpen One', cursive;color: white;}
+
+        .slide-text5 h1{font-family: 'Shadows Into Light', cursive; font-size: 80px;font-weight: bold;}
+        .slide-text5 h5{ font-size: 50px;font-family: 'Just Another Hand', cursive;}
+
+  nav {width: 100%; background-color: white;}
+       sticky-nav {position: fixed;top: 0; z-index: 2;}
+       nav a {color: blueviolet;}
+       nav ul li a {color: blueviolet;}
+
+  .wrap-cards { margin-top: 70px; background-image: url(../img/principal/fondo.png);}
+       .wrap-cards h1
+       {font-family:'PT Sans Narrow',sans-serif;font-size: 60px;font-weight:bold;text-align:center;color: blueviolet;margin-top:10px;}
+       .wrap-cards h2{font-family: 'Tulpen One', cursive;font-size: 40px;text-align: center;margin-top: 10px;}
+       .wrap-cards p {font-family: 'Tulpen One', cursive;font-size: 25px;text-align: justify; margin-top: 10px;}
+       .wrap-cards hr {width: 25%; height: 5px; background-color: #B685C0;}
+
+   .promociones 
+   {background-image: url(../img/principal/image1.jpg);background-color: rgb(213, 186, 226);background-position: center center;
+       background-size: cover;background-repeat: no-repeat;background-blend-mode: soft-light; color: blueviolet;
+       text-align: center; padding: 80px;height: auto;
+   }
+       .promociones h1{font-family: 'PT Sans Narrow', sans-serif;font-size: 60px;font-weight: bold; padding: 40px;margin-top:160px;}
+       .promociones h6 {font-family: 'Shadows Into Light', cursive;font-size: 35px;font-style: italic;}
+       .wrap-button-promocion a { margin-top: 80px; padding: 5px; width: 150px;height: 60px; font-size: 20px;}
+
+ .parallax-container{ background-color: rgb(255,255,255,0.4);  }
+
+   .wrap-calidad {width: 100%;height: auto; background-image: url(../img/principal/fondo.png); }
+          .wrap-calidad h1 { padding: 3px;margin-top: 60px;text-align: center;font-family: 'PT Sans Narrow', sans-serif;
+                           font-weight: bold;font-size: 65px; color: blueviolet; }
+
+          .wrap-calidad .wrap-calidad-picture { width: 50%;height: auto; margin: auto;}
+          .wrap-calidad .wrap-calidad-picture img { width: 100%;height: auto;}
+          .wrap-calidad-text {font-family: 'Shadows Into Light', cursive; background-color: white;text-align: center;
+                               padding: 5px;width: 100%;}
+          .wrap-calidad-text h3 { font-size: 25px;}
+          .wrap-calidad-text hr  {width: 100%;height: 1px; background-color: blueviolet;}
+          .wrap-calidad .wrap-calidad-bandera  {     }
+          .wrap-calidad .wrap-calidad-bandera img{ width: 10%;height: 40px;margin-top: 25px; margin-left: 45%;}
+
+ .wrap-conectate { background-image: url(../img/principal/social-media.jpg);background-color: rgb(250, 250, 250, 0.9);
+           background-position: center center;background-size: cover;background-repeat: no-repeat;background-blend-mode: soft-light;}
+
+        .wrap-conectate .wrap-conectate-titulo{ height: 150px;}
+        .wrap-conectate .wrap-conectate-titulo h2 {font-family: 'Shadows Into Light', cursive; text-align: center;
+                    font-size: 105px;font-weight: bold; color: blueviolet; height: 125px; }
+        .wrap-conectate .wrap-conectate-titulo hr { margin-top: -100px; width: 50%; height: 4px; background-color: blueviolet;}
+        .wrap-conectate-text{padding: 5px;background-color: white;font-family: 'Raleway', sans-serif;}
+        .wrap-conectate-text h6 { padding: 3px;text-align: center;font-size: 30px; background-color: white; color: black;}
+        .wrap-conectate-text hr{  width: 100%;height: 1px;background-color: blueviolet;}
+        .wrap-conectate .icon-social { padding: 25px; text-align: center;font-family: 'PT Sans Narrow', sans-serif;font-size: 35px;
+                                       color: blueviolet; }
+        .wrap-conectate .wrap-image-conectate {width: 100%;height: auto;padding: 25px; font-family: 'Pacifico', cursive; }
+        .wrap-conectate .wrap-image-conectate img { width: 100%; height: auto; }
+
+   .wrap-ubicanos {height: 650px; background-image: url(../img/principal/mapa.jpg); background-color: rgb(250, 250, 250, 0.8);
+       background-position: center center;background-size: cover; background-repeat: no-repeat; background-blend-mode: soft-light;
+       color: blueviolet; margin-top: 25px; text-align: center; padding: 20px; }
+
+           .wrap-ubicanos .wrap-mapa { width: 100%; height: auto;}
+           .wrap-ubicanos .wrap-mapa iframe { padding: 10px; width: 100%;height:500px;}
+           .wrap-ubicanos .wrap-locator{margin-top: 35px;}
+           .wrap-ubicanos .wrap-locator .icon-location {text-align: center;font-size: 50px;color: blueviolet; padding: 30px;
+                           margin-left: -10%;}
+           .wrap-ubicanos .wrap-text-locator {background-color: white; padding: 2px;margin-left: 2%;margin-top: 50px; }
+           .wrap-ubicanos .wrap-text-title-locator h1 { padding: 2px; font-size: 80px; text-align: center; font-weight: bold;
+               font-style:italic;font-family: 'Shadows Into Light', cursive; margin-top: -5px; }
+           .wrap-ubicanos .wrap-text-title-locator hr{padding: 1px;height: 3px;width: 30%; background-color: blueviolet;
+                margin-top: -25px;} 
+           .wrap-ubicanos .wrap-text-locator hr { padding: 1px; height: 1px; background-color: blueviolet; }
+           .wrap-ubicanos .wrap-text-locator h1 { padding: 2px; font-size: 20px; text-align: center;color: black;
+               font-family: 'Raleway', sans-serif;font-style: italic;}
+
+   .page-footer {
+       border: 5px;
+       background: white;
+       background-image: url(../img/principal/contact-us-1084524_1280.jpg);
+       background-color: rgb(120, 40, 70,0.7 );
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-blend-mode: soft-light;
+       font-family: 'Shadows Into Light', cursive;
+       color: white;
+   }
+
+
+.page-footer .footer-subtitulo h5{font-size: 35px;margin-top: 2px;font-weight: bold;}
+.page-footer .footer-subtitulo-texto{font-size: 22px;margin-top: -25px;font-family: 'BenchNine', sans-serif;}
+.footer-copyright{  color: white; font-size: 35px; font-weight: bold;margin-top: -20px;}
+
+/* Estilo para catalogo */
+hr{width: 25%;padding: 1px;height: 2px;background-color: blueviolet;}
+.wrap-catalogo{width: 100%;}
+.wrap-catalogo .wrap-card-catalogo .card{  background-color: rgb(213, 186, 226);}
+.wrap-card-catalogo-titulo{text-align: center;margin-top: 50px;background-color: rgb(100,200,200);margin-top: 5px;padding: px;}
+.wrap-card-catalogo-titulo h2{color: blueviolet; font-weight: bold;font-family: 'Shadows Into Light', cursive;padding: 1px;}
+.wrap-catalogo .wrap-card-catalogo .card-content{  margin-top: -45px;}
+.wrap-catalogo .wrap-card-catalogo .card .card-content .titleCard h4 { color:white;font-size: 15px;font-style: oblique;}
+.wrap-catalogo .wrap-card-catalogo .card .card-content .titleCard h5 { color:slategray;font-size: 20px;font-style: oblique;}
+.wrap-catalogo .wrap-card-catalogo .card .card-content .titleCard p
+      {color:slategray;font-size: 15px;text-align: justify;font-style: oblique;}
+.wrap-catalogo .wrap-card-catalogo .wrap-cardbutton .card-action a{margin-bottom: 10px;font-size: 10px;}
+
+
+/* Estilo para corporativo */
+.wrap-titulo{background-color: #fff;height:120px;text-align: center;margin-top: 100px;margin-bottom: 100px;
+-webkit-box-shadow: 3px 8px 13px 0px rgba(147,128,166,1);
+-moz-box-shadow: 3px 8px 13px 0px rgba(147,128,166,1);
+box-shadow: 3px 8px 13px 0px rgba(147,128,166,1);
+}
+.wrap-titulo .titulo{font-size: 55px; font-weight: bold;}
+.wrap-titulo .titulo p {margin: 15px;}
+.wrap-titulo .titulo hr {margin-top: -15px;}
+
+.corporativo-texto{background-color: white;}
+.corporativo-texto p {font-size: 20px; font-family: 'Dosis', sans-serif;text-align: justify;margin-top: 26px;padding: 18px;}
+.wrap-mision{margin-top: 150px;margin-bottom: 150px;}
+.titulo{background-color: white;font-size: 45px; font-family: 'Shadows Into Light', cursive;color: blueviolet;font-weight: bold; margin-top: 25px;}
+
+.card{margin-bottom: 150px;text-align: center;}
+.card .card-image .card-title{text-align: center;font-style: italic; font-size: 20px;font-weight: bold;}
+#parallax-calidad .calidad-titulo p{color: #fff;font-size: 65px;margin-top: 15px;}
+#parallax-calidad .calidad-texto p{color: #fff;font-size: 25px;margin-top: 15px;text-align: center;}
+
+#parallax-calidad { background-color:rgb(0,0,0, 0.2);}
+.wrap-image {width: 100%;height: auto;padding: 10px; font-family: 'Pacifico', cursive; }
+.wrap-image img { width: 100%; height: auto; }
+
+#index-banner{ height: auto;padding: 20px;}
+#index-banner .card-panel{padding: 20px;}
+#index-banner .mensaje{ font-size: 25px; font-family: 'Gochi Hand', cursive;}
+#index-banner .firma { text-align: center; font-size: 35px;font-style: italic;font-family: 'Mrs Saint Delafield', cursive;}
+#index-banner .nombre {font-size: 25px; font-family: 'Slabo 27px', serif;}
+#index-banner .cargo { font-size: 20px; font-family: 'Slabo 27px', serif;}
+.wrap-menu{width: 100%; height: auto;position: relative;top: 200px;}
+.wrap-menu ul li{background-color: gainsboro;padding: 15px;}
+@media only screen and (max-width: 400px) {
+ 
+    .wrap-catalogo{width: 250px;margin-left:25%;}
+     .wrap-ubicanos .wrap-mapa iframe { padding: 10px; width: 100%;height:200px;}
+  }
+
+
+   </style >
+
+
+   

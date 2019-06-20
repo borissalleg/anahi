@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Anahi Web´Store</title>
+<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ <link rel="stylesheet" type="text/css" media="all" href="../../css/estilo.css" th:href="@{/css/estilo.css}" />
+ <script src="../../js/js.js"  th:src="@{/js/js.js}"></script>
+</head>
+<body>
+<div th:replace="fragments/navbar ::navbar">
+</div>
+  <h6> Bienvenidos  <span th:text="${time}">  </span></h6>
+  
+  
+  
+<div class="header">
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img th:src="@{/img/Carousell/imagen1.jpg}"> <!-- random image -->
+                <div class="caption right-align dark purple-text text-lighten-3">
+                    <span class="slide-text1">
+                        <h1>Prendas comodas </h1>
+                        <h5>Siempre te haran sentir bien.</h5>
+                    </span>
+
+                </div>
+            </li>
+            <li>
+                <img th:src="@{/img/Carousell/imagen2.jpg}"> <!-- random image -->
+                <div class="caption leftt-align dark purple-text text-lighten-3">
+                    <span class="slide-text2">
+                        <h1> Caballeros </h1>
+                        <h5> Prendas formales que te harán sentir viril y elegante.</h5>
+                    </span>
+
+                </div>
+            </li>
+            <li>
+                <img src="../Anahi/img/Carousell/imagen3.jpg"> <!-- random image -->
+                <div class="caption left-align dark purple-text text-lighten-3">
+                    <span class="slide-text3">
+                        <h1> Damas</h1>
+                        <h5>Prendas y Accesorios Femeninos</h5>
+                    </span>
+
+                </div>
+            </li>
+            <li>
+                <img src="../Anahi/img/Carousell/imagen4.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <span class="slide-text4">
+                        <h1>Linea Infantil </h1>
+                        <h5>Siempre modernos, siempre encantadores!</h5>
+                    </span>
+
+                </div>
+            </li>
+            <li>
+                <img src="../Anahi/img/Carousell/imagen5.jpg"> <!-- random image -->
+                <div class="caption left-align ">
+                    <span class="slide-text5">
+                        <h1>Colecciones </h1>
+
+                        <h5 class="light grey-text text-lighten-3">Espera la actualizacion de nuestras colecciones en cada temporada.</h5>
+                    </span>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+<!--  CARDS  -->
+<div class="wrap-cards">
+    <div class="container ">
+        <div class="row">
+            <div class="col s12">
+                <h1>Nuestros Productos</h1>
+            </div>
+
+            <div class="col s12 ">
+                <h2>Todas nuestras lineas exclusivas, dedicadas a satisfaccer las necesidades del público actual </h2>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col s12 l4">
+                <!--  CARDS 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/cards/image1.jpg">
+                        <span class="card-title">Linea Infantil</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Diseños frescos y novedosos para mantener a la moda a nuestros tesoros más preciados .</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <!--  CARDS 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/cards/image2.jpg">
+                        <span class="card-title">Linea Ejecutiva</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Hombres y mujeres clasicos y elegantes para todas las temporadas del año.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l4">
+                <!--  CARDS 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/cards/image3.jpg">
+                        <span class="card-title">Linea Casual</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Casual y divertido para todo tipo de ocasion.¡Solo Atrevete y Asombrate...!</p>
+
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BODY -->
+
+<body>
+
+    <!-- PROMOCIONES -->
+    <div class="promociones">
+        <div class="row alignt center">
+            <div class="col s12 l6">
+                <span class="wrap-promocion-texto">
+                    <h1>No te pierdas nuestras promociones</h1>
+                    <h6>Aprovecha y accede a todas nuestras ofertas</h6>
+                </span>
+            </div>
+            <div class="col s12 l6">
+                <div class="wrap-button-promocion">
+                    <a class="waves-effect waves-light btn-large #9575cd deep-purple lighten-2"><i class="material-icons right">monetization_on</i>Ofertas</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--  PARALLAX JEAN  -->
+
+    <div class="parallax-container ">
+
+        <div class="parallax"><img src="img/parallax/parallax1.jpg"> </div>
+
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="wrap-calidad">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="row">
+                        <h1>Calidad Nacional</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="wrap-calidad-picture z-depth-5 ">
+
+                                <img src="img/principal/tienda2.jpg" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="wrap-calidad-text z-depth-5 ">
+                                <hr>
+                                <h3>Ogullosos de nuestro negocio 100% colombiano, con insumos y personal de primera, ofrecemos los mejores productos en prendas de vestir.</h3>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="wrap-calidad-bandera ">
+
+                                <img src="img/principal/BanderaColombia.png" alt="">
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  PARALLAX JEAN  -->
+
+    <div class="parallax-container">
+
+
+        <div class="parallax"><img src="img/parallax/parallax2.jpg"> </div>
+
+    </div>
+
+
+
+    <!--  CONECTATE  -->
+    <div class="wrap-conectate">
+        <div class="row">
+            <div class="col s12 m6 ">
+                <div class="row">
+                    <div class="wrap-conectate-titulo">
+                        <h2>
+                            <p>Conectate </p>
+                            <hr>
+                        </h2>
+
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col s12">
+                        <div class="wrap-conectate-text z-depth-5">
+                            <hr>
+                            <h6> Mantente conectado e informado acerca de nuestros productos en las diferentes redes sociales. </h6>
+                            <hr>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="icon-social">
+                        <span class="icon-tumblr2"></span>
+                        <span class="icon-whatsapp"></span>
+                        <span class="icon-instagram"></span>
+                        <span class="icon-facebook"></span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="wrap-image-conectate">
+
+                    <img src="img/principal/cellphone.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  PARALLAX JEAN  -->
+
+    <div class="parallax-container ">
+
+        <div class="parallax"><img src="img/parallax/parallax3.jpg"> </div>
+
+    </div>
+    <!-- UBICANOS-->
+    <div class="wrap-ubicanos">
+        <div class="row">
+
+            <div class="col s12 m6">
+                <div class="wrap-mapa z-depth-1">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1dFSRLUrp2eDPvQcbu0oIHIJ3UNqUthbd&hl=es-419"></iframe>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="row">
+                    <div class="wrap-locator">
+                        <span class="icon-location"></span>
+                    </div>
+                    <div class="row">
+                        <div class="wrap-text-title-locator">
+
+                            <h1>UBICANOS</h1>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="wrap-text-locator z-depth-5">
+                            <hr>
+                            <h1>Busca la ruta más rápida para llegar, encuentranos y disfruta al visitarnos, recuerda que las promociones son inigualables</h1>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+           
+                <div class="col l6 s12">
+                    <span class="footer-subtitulo">
+                        <h5 class="white-text">Redes Sociales</h5>
+                    </span>
+                    <span class="footer-subtitulo-texto">
+                       <ul>
+                        <li><span class="icon-tumblr"></span>
+                            <span class="text">361 30 20 </span></li>
+                        <li><span class="icon-facebook"></span>
+                            <span class="text"> ventas@anahi.com</span></li>
+                        <li><span class="icon-instagram"></span>
+                            <span class="text"> soporte@anahi.com</span></li>
+                            </ul>
+                    </span>
+
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <span class="footer-subtitulo">
+                        <h5 class="white-text">Links</h5>
+                    </span>
+                    <span class="footer-subtitulo-texto">
+                        <ul>
+                            <li><span class="icon-whatsapp"></span>
+                                <span class="text">361 30 20 </span></li>
+                            <li><span class="icon-mail4"></span>
+                                <span class="text"> ventas@anahi.com</span></li>
+                            <li><span class="icon-mail4"></span>
+                                <span class="text"> soporte@anahi.com</span></li>
+
+                        </ul>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright ">
+            <div class="container">
+                © 2019 Copyright Text
+                <span class="right">Creaciones Ingenios Software</span>
+            </div>
+        </div>
+    </footer>
+  
+  
+</body>
+</html>
